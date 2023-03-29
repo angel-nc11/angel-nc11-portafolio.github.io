@@ -1,0 +1,157 @@
+body {
+    background: linear-gradient(to left, #274d2c,#1d153b ); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main {
+    width: auto;
+}
+
+.box {
+    width: 18%;
+    height: 500px;
+    position: absolute;
+    background: rgb(0, 0, 0, .2);
+    margin-top: 35px;
+    margin-left: 17px;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.img-box{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.box h1{
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgba(255, 217, 0, 0.719);
+    margin: 10% 0 1%;
+}
+.box h2{
+    margin-top: 7%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+.box p{
+    width: 100%;
+    margin-top: 7%;
+    text-align: justify;
+    font-size: 15px;
+}
+.grapic{
+    margin-top: 60px;
+}
+.git,.twitter{
+    padding-left: 4%;
+}
+
+.proyectos{
+    width: 70%;
+    height: 500px;
+    display: inline-block;
+    margin-left: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 35px;
+    padding: 2%;
+    border-radius: 15px;
+}
+.encriptador, .torres{
+   
+    width: 34%;
+    height: 75%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0%;
+    text-align: center;
+    color: white;
+}
+
+.barra-espaciadora{
+    width: 2px;
+    height: 500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 35%;
+    margin-top: 2px;
+    background: rgba(211, 196, 196, 0.384);
+    border-radius: 1px;
+}
+.barberia, .divisas{
+    /* background-color: blue; */
+    width: 34%;
+    height: 75%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 36.5%;
+    text-align: center;
+    color: white
+}
+.encriptador h1, .barberia h1, .torres h1, .divisas h1 {
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    /* color: rgba(255, 217, 0, 0.719); */
+}
+.encriptador img, .barberia img, .torres img, .divisas img{
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.encriptador p, .torres p{
+    width: 90%;
+    padding: 4%;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    font-size: 14px;
+    text-align: justify;
+}
+.barberia p, .divisas p{
+    width: 90%;
+    padding: 4%;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.btm-encriptador, .btm-barberia, .btm-hanoi, .btm-divisas{
+    background: none;
+    color: rgb(255, 255, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(217, 255, 3, 0.2);
+    padding: 0 3% 2px 3%;
+}
+
+.botones{
+    width: 100%;
+    text-align: left;
+    display: block;
+    /* background-color: #1d153b; */
+}
+
+.btm-hanoi{
+    width: 20%;
+    margin-left: 3%;
+}
+.btm-encriptador, .btm-barberia{
+    width: 20%;
+    margin-left: 1%;
+}
+.btm-divisas{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.git-encriptador, .git-barberia, .git-torres, .git-divisas{
+    color: rgba(255, 217, 0, 0.719);
+}
+
+
