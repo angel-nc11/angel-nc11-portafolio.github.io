@@ -4,6 +4,7 @@ body {
 }
 main {
     width: auto;
+    height: auto;
 }
 
 .box {
@@ -26,14 +27,14 @@ main {
 
 .box h1{
     width: 100%;
-    font-size: 30px;
+    font-size: 180%;
     letter-spacing: 3px;
     color: rgba(255, 217, 0, 0.719);
     margin: 10% 0 1%;
 }
 .box h2{
     margin-top: 7%;
-    font-size: 20px;
+    font-size: 110%;
     letter-spacing: 3px;
     
 }
@@ -41,16 +42,17 @@ main {
     width: 100%;
     margin-top: 7%;
     text-align: justify;
-    font-size: 15px;
+    font-size: 90%;
 }
 .grapic{
-    margin-top: 60px;
+    margin-top: 10%;
 }
 .git,.twitter{
     padding-left: 4%;
 }
 
 .proyectos{
+
     width: 70%;
     height: 500px;
     display: inline-block;
@@ -130,16 +132,24 @@ main {
     padding: 0 3% 2px 3%;
 }
 
-.botones{
-    width: 100%;
+.btm_izquierda{
+    width: 50%;
+    position: absolute;
+    display: inline;
     text-align: left;
-    display: block;
+    /* background-color: #1d153b; */
+}
+.btm_derecha{
+    width: 50%;
+    position: relative;
+    text-align: left;
+    margin-left: 50%;
     /* background-color: #1d153b; */
 }
 
 .btm-hanoi{
     width: 20%;
-    margin-left: 3%;
+    margin-left: 15%;
 }
 .btm-encriptador, .btm-barberia{
     width: 20%;
@@ -147,7 +157,7 @@ main {
 }
 .btm-divisas{
     width: 20%;
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 .git-encriptador, .git-barberia, .git-torres, .git-divisas{
@@ -155,3 +165,160 @@ main {
 }
 
 
+/* Phone 
+--------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  
+    main {
+        width: auto;
+        height: 100%;
+    }
+    .box {
+        background: rgba(255, 255, 255, 0);
+        margin-top: 3%;
+        margin-bottom: 3%;
+        position: relative;
+        width: 80%;
+        height: 55%;
+        margin-left: 8%;
+        padding: 2%;
+        text-align: left;
+    }
+
+    .img-box{
+        width: 30%;
+        margin-top: 5%;
+        position: absolute;
+        border-radius: 15px;
+    }
+    
+    .box h1{
+        width: 70%;
+        font-size: 25px;
+        display: inline-block;
+        padding-left: 40%;
+        padding-top: 10px;
+    }
+    .box h2{
+        width: 70%;
+        display: inline-block;
+        padding-left: 35%;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .box p{
+        margin-top: 35px;
+        margin-bottom: 5%;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .grapic{
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        padding: 5px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+    }
+    .git,.twitter{
+        padding-left: 4%;
+    }
+   
+    .proyectos{
+        width: 80%;
+        height: 80%;
+        display: inline;
+        margin-left: 10%;
+        background: none;
+        margin-top: 550px;
+        padding: 2%;
+        border-radius: 15px;
+        line-height: 130%;
+    } 
+   
+
+    .encriptador, .torres{
+        width: 80%;
+        height: 35%;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-bottom: 10%        
+    }
+   
+    .barra-espaciadora{
+        width: 0%;
+        height: 0%;
+        
+    }
+
+    .divisas, .barberia{
+        /* background-color: blue; */
+        width: 80%;
+        height: 35%;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 10%;
+        padding-bottom: 50%;
+        padding-top: 10%;
+    }
+   .barberia h1, .divisas h1 {
+        margin-top: 0%;
+   }
+
+    .barra-espaciadora{
+        width: 0%;
+        height: 0%;
+        
+    }
+
+    .btm_izquierda{
+        width: 80%;
+        padding: 1%;
+        margin-top: 10px;
+        position: absolute;
+        display: inline-block;
+        text-align: left;
+        margin-left: 0%;
+        margin-right: 0%;
+        /* background-color: #1d153b; */
+    }
+    .btm_derecha{
+        width: 80%;
+        padding-top: 1%;
+        position: relative;
+        text-align: left;
+        margin-left: 0%;
+        padding-left: 12%;
+        display: block;
+   
+    }
+
+    .btm-hanoi,.btm-divisas{
+        width: 39%;
+        margin-left: 5%;
+    }
+    .btm-encriptador, .btm-barberia{
+        width: 39%;
+        margin-left: 1%;
+    }
+
+}
+
+
+
+
+/* tablet
+------------------------------------- */
+
+@media screen and (max-width: 980px) and (min-width: 481px){
+    main {
+        position: relative;
+        width: auto;
+        height: 1300px;
+    }
+    
+}
