@@ -257,11 +257,11 @@ main {
     .divisas, .barberia{
         /* background-color: blue; */
         width: 80%;
-        height: 35%;
+        height: 470px;
         position: absolute;
         margin-top: 5%;
         margin-left: 10%;
-        padding-bottom: 50%;
+        padding-bottom: 20px;
         padding-top: 10%;
     }
    .barberia h1, .divisas h1 {
